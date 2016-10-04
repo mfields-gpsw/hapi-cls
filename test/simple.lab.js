@@ -1,8 +1,10 @@
 var lab      = require('lab');
-var describe = lab.experiment;
-var it       = lab.test;
-var before   = lab.before;
-var expect   = lab.expect;
+var Code = require('code');
+
+var describe = lab.describe;
+var it = lab.it;
+var before = lab.before;
+var expect = Code.expect;
 
 describe("basic hapi CLS case", function () {
   var server;
